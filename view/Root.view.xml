@@ -1,0 +1,9 @@
+<mvc:View controllerName="[namespace]Root" displayBlock="true" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+	<Shell id="rootShell">
+		<App id="rootApp">
+			<pages>
+				<!-- added by router -->
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

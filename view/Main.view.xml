@@ -1,0 +1,5 @@
+<mvc:View controllerName="[namespace].Main" displayBlock="true" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
+    <Page title="MyApp">
+        <content></content>
+    </Page>
+</mvc:View>
