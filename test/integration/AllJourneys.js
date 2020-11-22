@@ -7,7 +7,7 @@ sap.ui.define([
 
 	Opa5.extendConfig({
 		arrangements: new Startup(),
-		viewNamespace: "fmi.Eco.view.",
+		viewNamespace: "[namespace].view.",
 		autoWait: true
 	});
 });

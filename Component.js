@@ -5,7 +5,7 @@ sap.ui.define([
 ], function (UIComponent, Device, models) {
 	"use strict";
 
-	return UIComponent.extend("fmi.Eco.Component", {
+	return UIComponent.extend("[namespace].Component", {
 
 		metadata: {
 			manifest: "json"

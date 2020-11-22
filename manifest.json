@@ -1,7 +1,7 @@
 {
 	"_version": "1.12.0",
 	"sap.app": {
-		"id": "fmi.Eco",
+		"id": "[namespace]",
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"applicationVersion": {
@@ -39,7 +39,7 @@
 	"sap.ui5": {
 		"flexEnabled": false,
 		"rootView": {
-			"viewName": "fmi.Eco.view.Root",
+			"viewName": "[namespace].view.Root",
 			"type": "XML",
 			"async": true,
 			"id": "Root"
@@ -66,7 +66,7 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "fmi.Eco.i18n.i18n"
+					"bundleName": "[namespace].i18n.i18n"
 				}
 			}
 		},
